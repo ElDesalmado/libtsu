@@ -1,6 +1,8 @@
 ﻿
 #include <libtsu/libtsu_public.h>
 
+using namespace tsu;
+
 int main()
 {
     constexpr val_ratio v1 = get_val_ratio(std::ratio<1, 1>{});
